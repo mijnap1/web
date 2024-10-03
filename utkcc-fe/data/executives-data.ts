@@ -307,14 +307,6 @@ export const execData: {
   },
   {
     dept: 'external relations',
-    position: 'director',
-    name: '박서정',
-    imageSrc: '/assets/images/exec-headshots/박서정.webp',
-    program: 'Political Science',
-    intro: [],
-  },
-  {
-    dept: 'external relations',
     position: 'committee',
     name: '최정윤',
     imageSrc: '/assets/images/exec-headshots/최정윤.webp',
