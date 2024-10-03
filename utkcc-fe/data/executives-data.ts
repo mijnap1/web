@@ -34,6 +34,7 @@ export const execData: {
   imageSrc: string;
   intro: string[];
 }[] = [
+/* ----------------------Presidents---------------------- */
   {
     dept: 'presidents',
     position: 'president',
@@ -50,6 +51,7 @@ export const execData: {
     program: 'Economics & Statistics',
     intro: [' '],
   },
+/* -----------------------Academics---------------------- */
   {
     dept: 'academics',
     position: 'director',
@@ -91,6 +93,31 @@ export const execData: {
     intro: [],
   },
   {
+    dept: 'academics',
+    position: 'intern',
+    name: '구본석',
+    imageSrc: '',
+    program: 'Rotman Commerce',
+    intro: [],
+  },
+  {
+    dept: 'academics',
+    position: 'intern',
+    name: '이가은',
+    imageSrc: '',
+    program: 'Rotman Commerce',
+    intro: [],
+  },
+  {
+    dept: 'academics',
+    position: 'intern',
+    name: '김도연',
+    imageSrc: '',
+    program: 'IRHR',
+    intro: [],
+  },
+/* ----------------------Marketing----------------------- */
+  {
     dept: 'marketing - video',
     position: 'director',
     name: '오하린',
@@ -112,6 +139,14 @@ export const execData: {
     name: '김유진',
     imageSrc: '/assets/images/exec-headshots/김유진.webp',
     program: 'Economics & Statistics',
+    intro: [],
+  },
+  {
+    dept: 'marketing - video',
+    position: 'intern',
+    name: '신하서',
+    imageSrc: '',
+    program: 'Architecture',
     intro: [],
   },
   {
@@ -139,6 +174,15 @@ export const execData: {
     intro: [],
   },
   {
+    dept: 'marketing - poster',
+    position: 'intern',
+    name: '윤여경',
+    imageSrc: '',
+    program: 'Kinesiology and PE',
+    intro: [],
+  },
+/* ----------------------Media--------------------------- */
+  {
     dept: 'media',
     position: 'director',
     name: '이지현',
@@ -162,6 +206,15 @@ export const execData: {
     program: 'Biology & Health and Disease',
     intro: [],
   },
+  {
+    dept: 'media',
+    position: 'intern',
+    name: '최이안',
+    imageSrc: '',
+    program: 'Rotman Commerce',
+    intro: [],
+  },
+/* ----------------------Social-------------------------- */
   {
     dept: 'social',
     position: 'director',
@@ -203,6 +256,23 @@ export const execData: {
     intro: [],
   },
   {
+    dept: 'social',
+    position: 'intern',
+    name: '박지수',
+    imageSrc: '',
+    program: 'Architectural Studies',
+    intro: [],
+  },
+  {
+    dept: 'social',
+    position: 'intern',
+    name: '김서희',
+    imageSrc: '',
+    program: 'Economics',
+    intro: [],
+  },
+/* ----------------------Finance------------------------- */
+  {
     dept: 'finance',
     position: 'director',
     name: '홍윤재',
@@ -218,6 +288,15 @@ export const execData: {
     program: 'Rotman Commerce',
     intro: [],
   },
+  {
+    dept: 'finance',
+    position: 'intern',
+    name: '김명세',
+    imageSrc: '',
+    program: 'Rotman Commerce',
+    intro: [],
+  },
+/* ----------------------ER--------------------------- */
   {
     dept: 'external relations',
     position: 'director',
@@ -250,6 +329,23 @@ export const execData: {
     program: 'Life Science',
     intro: [],
   },
+  {
+    dept: 'external relations',
+    position: 'intern',
+    name: '신정민',
+    imageSrc: '',
+    program: 'Math & Physical Sciences',
+    intro: [],
+  },
+  {
+    dept: 'external relations',
+    position: 'intern',
+    name: '최현서',
+    imageSrc: '',
+    program: 'Rotman Commerce',
+    intro: [],
+  },
+/* ----------------------Programming----------------------- */
   {
     dept: 'programming',
     position: 'committee',
