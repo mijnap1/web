@@ -35,7 +35,7 @@ export default function FooterContactInfo() {
           of UTKCC the 17th.
         </div>
         <div className="pb-2">
-          Copyright ⓒ {new Date().getFullYear()}. University of Toronto Korean
+          ⓒ 2022. University of Toronto Korean
           Commerce Community. All Rights Reserved.
         </div>
       </div>
