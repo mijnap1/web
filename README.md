@@ -100,12 +100,12 @@ Information of sponsors of UTKCC will be stored in the variable `sponsorsData`, 
 
 ### Updating Executives Information - **Important**
 
-WARNING: Updating the sponsor information must be done _every April and October_.\
+WARNING: Updating the executivers information must be done _every April and October_.\
 Please follow the instructions below.
 
 Open the TypeScript file in the source code: `utkcc-fe/data/executives-data.ts`.
 
-Information of executive members of UTKCC will be stored in the variable `sponsorsData`, in the following structure:
+Information of executive members of UTKCC will be stored in the variable `execData`, in the following structure:
 
 ```typescript
 {
@@ -126,6 +126,13 @@ Information of executive members of UTKCC will be stored in the variable `sponso
   4. `imageSrc`: Location of the image in the source code public directory. Please use the extension `.webp` or `.avif` to reduce file size if possible.
   5. `program`: The member's program of study.
   6. `intro`: Include this only if the member is the president or the vice-president; otherwise, leave it as `[]`.
+
+- Adding Photos:
+
+  1. The headshot of each executive is located in `public/assets/images/exec-headshots`.
+  2. The format of each picture is in `{name}.webp` with the file size less than 100kb, for optimization purposes.
+  3. For better aesthetics and unity of design, each picture must be cut in 1:1 square ratio of around 700px * 700px.
+  4. The face of each executive must fit inside the center of the 3*3 grid when trimming. 
 
 ### Updating the Website Itself - **Danger Zone**
 
