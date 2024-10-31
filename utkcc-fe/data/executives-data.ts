@@ -185,14 +185,6 @@ export const execData: {
   {
     dept: 'media',
     position: 'director',
-    name: '이지현',
-    imageSrc: '/assets/images/exec-headshots/이지현.webp',
-    program: 'CS & Cognitive Science',
-    intro: [],
-  },
-  {
-    dept: 'media',
-    position: 'committee',
     name: '유찬혁',
     imageSrc: '/assets/images/exec-headshots/유찬혁.webp',
     program: 'Political Science',
@@ -340,7 +332,7 @@ export const execData: {
 /* ----------------------Programming----------------------- */
   {
     dept: 'programming',
-    position: 'committee',
+    position: 'director',
     name: '류재혁',
     imageSrc: '/assets/images/exec-headshots/류재혁.webp',
     program: 'CompSci & Stat.',
