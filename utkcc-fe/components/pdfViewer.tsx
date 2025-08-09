@@ -55,7 +55,10 @@ export default function PdfSlider({ fileUrl }: { fileUrl: string }) {
 
   useEffect(() => {
     const loadPdf = async () => {
-      const worker = new PDFWorker({ name: 'pdfjs-worker', workerSrc });
+      const worker = new PDFWorker({
+        name: 'pdfjs-worker' as unknown as null,
+        workerSrc,
+      } as any);
       GlobalWorkerOptions.workerPort = worker.port;
 
       const pdf = await getDocument({ url: fileUrl, worker }).promise;
