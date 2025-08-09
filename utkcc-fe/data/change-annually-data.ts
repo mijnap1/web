@@ -5,7 +5,10 @@
 
 /** KCC 시작 연도: 2007년 */
 export const KCC_START_YEAR = 2007;
-export const KCC_TH_NOW = new Date().getFullYear() - KCC_START_YEAR + (new Date().getMonth() >= 4 ? 1 : 0);
+export const KCC_TH_NOW =
+  new Date().getFullYear() -
+  KCC_START_YEAR +
+  (new Date().getMonth() >= 4 ? 1 : 0);
 
 /** 멤버십 가입 링크 */
 export const joinMemberShipLink = 'https://forms.gle/VCSYDbiWNDYbw8rZ7';
@@ -13,7 +16,7 @@ export const joinMemberShipLink = 'https://forms.gle/VCSYDbiWNDYbw8rZ7';
 export const recruitmentLink = 'https://bit.ly/utkcc_2023_recruitment';
 /** 뉴스레터 구독 링크 */
 export const subscribeNewsletterLink =
-  'https://docs.google.com/forms/d/1h8FoNhv85dFnX4ICnw9BmvtRr_MBFhHS5Z6WrRlUP6Y/viewform?edit_requested=true';
+  'https://docs.google.com/forms/d/17Mp8uJY-spJBrOzK0T8hNc5kFj-DtUQcugEfVmVdjnc/edit';
 
 /** KCC 이메일 */
 export const kccEmail = 'koreancommerce@gmail.com';
