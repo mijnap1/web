@@ -2,7 +2,9 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { getDocument, PDFWorker, GlobalWorkerOptions } from 'pdfjs-dist';
-import workerSrc from 'pdfjs-dist/build/pdf.worker.min?url';
+// import workerSrc from 'pdfjs-dist/build/pdf.worker.min?url';
+
+const workerSrc = require('/public/pdf.worker.min.js').default;
 
 export default function PdfSlider({ fileUrl }: { fileUrl: string }) {
   const containerRef = useRef<HTMLDivElement>(null);
