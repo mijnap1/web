@@ -4,10 +4,10 @@ This repository contains the source code for the UTKCC official website, created
 
 ## Authors
 
-- [@ryubsmile](https://www.github.com/ryubsmile): Developer.
-- [Hyunjun You](https://www.instagram.com/hyunjun2003): Designer.
-- [Jingeon Kim](https://github.com/JustKim04): Administrator and Maintainer.
-
+- 🎨 [Hyunjun You](https://www.instagram.com/hyunjun2003) — Designer.
+- 🧑‍💻 [@ryubsmile](https://github.com/ryubsmile) — Programming Director.
+- 🧩 [@caelankim](https://github.com/caelankim) — Programming Committee. 
+- 💻 [@mjinap1](https://github.com/mjinap1) — Programming Intern.
 ## Documentation (Attention Maintainers-)
 
 This documentation is intended for non-coders who wish to maintain the website with minimal coding.
@@ -28,11 +28,11 @@ Here are some examples:
 /** KCC Email */
 export const kccEmail = 'koreancommerce@gmail.com';
 /** President's Email */
-export const presEmail = 'seohyun.kang@mail.utoronto.ca';
+export const presEmail = 'danielkim6778@gmail.com';
 /** Vice President's Email */
-export const vicePresEmail = 'suye.han@mail.utoronto.ca';
+export const vicePresEmail = 'laurenkang11@gmail.com';
 /** Sponsor-Related Email (ER Director) */
-export const erDirectorEmail = 'yujin.shim@mail.utoronto.ca';
+export const erDirectorEmail = 'jungyoon.uoft@gmail.com';
 
 ...
 ```
