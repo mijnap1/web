@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 import localFont from 'next/font/local';
+import Script from 'next/script';
 import FooterContactInfo from '@/components/footerContactInfo';
+import FooterVisibility from '@/components/footerVisibility';
+import ChatWidget from '@/components/ChatWidget';
 import { getURL } from '@/lib/utils';
 import './globals.css';
 
@@ -124,10 +127,21 @@ export default function RootLayout({
         className="w-[100dvw] min-h-[100lvh]"
         // suppressHydrationWarning={true}
       >
+        <Script
+          type="module"
+          src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.esm.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          noModule
+          src="https://unpkg.com/ionicons@7/dist/ionicons/ionicons.js"
+          strategy="afterInteractive"
+        />
         {children}
-        <footer id="footer" className="mt-auto">
+        <FooterVisibility>
           <FooterContactInfo />
-        </footer>
+        </FooterVisibility>
+        <ChatWidget />
       </body>
     </html>
   );

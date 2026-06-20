@@ -3,12 +3,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import PageIntro from '@/components/pageIntro';
 import MenuBar from '@/components/menubar';
-import antiCalendarImage from '/public/assets/images/resources/anti-calendar.jpeg';
-import studyPackageImage from '/public/assets/images/resources/study-package.jpeg';
-import instagramLogo from '/public/assets/images/media-logo/instagram.png';
-import facebookLogo from '/public/assets/images/media-logo/facebook.png';
-import linkedInLogo from '/public/assets/images/media-logo/linkedIn.png';
-import youtubeLogo from '/public/assets/images/media-logo/youtube.png';
+import antiCalendarImage from 'public/assets/images/resources/anti-calendar.jpeg';
+import studyPackageImage from 'public/assets/images/resources/study-package.jpeg';
+import instagramLogo from 'public/assets/images/media-logo/instagram.png';
+import facebookLogo from 'public/assets/images/media-logo/facebook.png';
+import linkedInLogo from 'public/assets/images/media-logo/linkedIn.png';
+import youtubeLogo from 'public/assets/images/media-logo/youtube.png';
 import { joinMemberShipLink } from '@/data/change-annually-data';
 
 export const metadata: Metadata = {
@@ -230,9 +230,13 @@ export default function Resources() {
   return (
     <PageIntro
       pageName="resources"
-      pageSlogan={<>UTKCC가 제공하는 리소스</>}
+      pageSlogan={
+        <div className="text-3xl font-bold leading-[1.05] tracking-tight text-black lg:text-6xl">
+          UTKCC가 제공하는 <span className="text-kcc-theme">리소스</span>
+        </div>
+      }
       pageExp={
-        <>
+        <div className="max-w-2xl text-sm leading-relaxed text-kcc-gray lg:text-base lg:leading-relaxed">
           멤버십 소지자에게는 매년 60개 이상의 강의 후기와 전공·교양 수업 대비에
           유용한 안티캘린더 및 자료집을 제공합니다.
           <span className="my-3 w-full block" />
@@ -247,7 +251,7 @@ export default function Resources() {
               멤버십 신청하기
             </Link>
           </span>
-        </>
+        </div>
       }
     >
       <MenuBar
