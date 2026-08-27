@@ -102,11 +102,11 @@ export default function Newsletter() {
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-[1250/1550] overflow-hidden bg-[#f4f0ec] sm:aspect-auto sm:min-h-[430px]"
-              aria-label="August Week 3 뉴스레터 인스타그램에서 보기"
+              aria-label="August Week 4 뉴스레터 인스타그램에서 보기"
             >
               <Image
-                src="/assets/images/newsletter/august-week-3-cover.png"
-                alt="KCC Newsletter August Week 3 표지"
+                src="/assets/images/newsletter/august-week-4-cover.png"
+                alt="KCC Newsletter August Week 4 표지"
                 fill
                 sizes="(min-width: 1024px) 34vw, (min-width: 640px) 52vw, 100vw"
                 className="object-cover transition duration-700 group-hover:scale-[1.025]"
@@ -136,13 +136,13 @@ export default function Newsletter() {
               <div className="mt-7 flex-1">
                 <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-kcc-theme">Latest post</p>
                 <h2 className="mt-2 text-2xl font-bold leading-tight tracking-tight text-slate-950 sm:text-3xl">
-                  August Week 3 
+                  August Week 4
                 </h2>
                 <ul className="mt-4 space-y-1 break-keep text-[13px] leading-5 text-slate-600">
-                  <li>✔️ Weekly News - 한국 경제 회복세</li>
-                  <li>✔️ Biz Tip - Campus to Career</li>
+                  <li>✔️ Weekly News - 캐나다 물가상승률</li>
+                  <li>✔️ Biz Tip - Case Competitions</li>
                   <li>✔️ Business Fun Facts</li>
-                  <li>✔️ Member Spotlight</li>
+                  <li>✔️ KCC Member Spotlight</li>
                 </ul>
                 <p className="mt-4 break-keep text-[13px] leading-5 text-slate-600">
                   이번 주에도 5분이면 읽을 수 있는 KCC Newsletter와 함께하세요!
